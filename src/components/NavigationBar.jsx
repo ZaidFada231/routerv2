@@ -20,6 +20,9 @@ const NavigationBar = () => {
           <Button color="inherit">
             <Link to="/app3">News App</Link>
           </Button>
+          <Button color="inherit">
+            <Link to="/app4">Tic App</Link>
+          </Button>
         </Toolbar>
       </AppBar>
     </div>
