@@ -1,25 +1,27 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { AppBar, Toolbar, Typography, Button } from "@mui/material";
 
 const NavigationBar = () => {
   return (
     <div>
-      <nav>
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
+      <nav></nav>
+      <AppBar position="static">
+        <Toolbar>
+          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+            My Applications with Forge So Far
+          </Typography>
+          <Button color="inherit">
             <Link to="/app1">Trivia App</Link>
-          </li>
-          <li>
-            <Link to="/app2">App 2</Link>
-          </li>
-          <li>
-            <Link to="/app3">App 3</Link>
-          </li>
-        </ul>
-      </nav>
+          </Button>
+          <Button color="inherit">
+            <Link to="/app2">Weather App</Link>
+          </Button>
+          <Button color="inherit">
+            <Link to="/app3">News App</Link>
+          </Button>
+        </Toolbar>
+      </AppBar>
     </div>
   );
 };

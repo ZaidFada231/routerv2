@@ -1,0 +1,44 @@
+input[type="text"] {
+    border:black;
+    border-radius: 20px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .weather-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 0px;
+  }
+  .weather-icon-main{
+    width: 100px;
+    height: 100px;
+  }
+  .weather-icon {
+    width: 35px;
+    height: 35px;
+  }
+  
+  
+  .temp-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: black;
+  }
+  
+  .temp-info p {
+    font-size: 1.5em;
+  }
+  
+  .weather-desc {
+    font-size: 1.5em;
+    margin-top: 20px;
+  }
+  .card{
+    margin:'auto';
+  }
